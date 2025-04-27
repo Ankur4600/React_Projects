@@ -1,0 +1,46 @@
+.header{
+    height: 100px;
+    width: 100vw;
+    /* padding-bottom: 20px; */
+}
+.header:hover{
+    border-bottom: 1px solid rgb(152, 150, 150);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 20px 50px;
+}
+.logoimg{
+    height: 50px;
+    margin-top: 30px;
+    /* width: 50px; */
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+
+   
+}
+.navlist>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+   
+
+}
+button{
+    font-size: 20px;
+    height: 40px;
+    width: 90px;
+    background-color: var(--red);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
